@@ -1,0 +1,2 @@
+# StudyJS
+Some excersises
