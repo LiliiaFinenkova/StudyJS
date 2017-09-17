@@ -1,5 +1,5 @@
 var sortArrayAsc = function(arr) {
-    var array = [];//tkgjmktgjmk
+    var array = [];
     for(i = 0; i < arr.length; i++) {
         if (arr[i] < arr[i - 1]) {
             array.push(arr[i]);
