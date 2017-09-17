@@ -1,4 +1,5 @@
-var sortArrayAsc = function(arr) {
+//1.Bubble sort
+var sortBubblesArray = function(arr, asc) {
     var array = [];
     for(i = 0; i < arr.length; i++) {
         if (arr[i] < arr[i - 1]) {
@@ -10,4 +11,4 @@ var sortArrayAsc = function(arr) {
 
 debugger;
 var example = [10, 5, 1, 3, 9];
-sortArrayAsc(example);
+sortBubblesArray(example);
