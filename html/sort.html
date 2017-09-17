@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sort array</title>    
+        <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\bootstrap.min.css"/>   
+    </head>
+
+    <body class="container">
+        <h1 class="col-xs-12">Sort array</h1>    
+        
+        <div class="row form">
+            <div class="form-group col-xs-12">
+                <div class="col-xs-8 col-sm-5">
+                        <label>Generate random array with numbers</label>
+                        <input id="count" class="form-control" placeholder="amout of numbers"/>
+                        
+                        <br/>
+                        <button type="button" class="btn btn-info">Generate</button>
+                        <br/>
+                        <br/>
+                        <label>Unsorted array:</label>
+                        <label id="unsorted-array"></label>
+                </div>               
+            </div>
+
+            <div class="form-group col-xs-12">
+                <div class="col-xs-12">
+                        <button type="button" class="btn btn-success">Sort</button>
+                </div>
+               
+            </div>
+        </div>
+
+        <div id="result" class="alert alert-success hidden" role="alert">
+            <h4 class="alert-heading">Array has been sorted!</h4>
+            <p></p>
+        </div>
+    </body>
+
+    <script src="..\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="..\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="..\javascript\sort_array.js"></script>
+</html>
