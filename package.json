@@ -1,0 +1,27 @@
+{
+  "name": "studyjs",
+  "version": "1.0.0",
+  "description": "set of js exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiliiaFinenkova/StudyJS.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Liliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiliiaFinenkova/StudyJS/issues"
+  },
+  "homepage": "https://github.com/LiliiaFinenkova/StudyJS#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
