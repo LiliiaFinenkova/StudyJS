@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Sort array</title>    
-        <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\bootstrap.min.css"/>   
+        <link rel="stylesheet" href="..\node_modules\bootstrap\dist\css\bootstrap.min.css"/>
+        <link rel="stylesheet" href="C:\Users\Dimon\Desktop\StudyJS\css\site.css"/>  
     </head>
 
     <body class="container">
@@ -13,11 +14,32 @@
             <div class="form-group col-xs-12">
                 <div class="col-xs-8 col-sm-5">
                         <label>Generate random array with numbers</label>
-                        <input id="count" class="form-control" placeholder="amout of numbers"/>
-                        
                         <br/>
-                        <button type="button" class="btn btn-info">Generate</button>
+                        <label for="select">Select list (select amount of numbers will be generated):</label>
+                        <select class="form-control max-100" id="select_amount">
+                          <option>5</option>
+                          <option>15</option>
+                          <option>25</option>
+                          <option>50</option>
+                          <option>75</option>
+                          <option>100</option>
+                        </select>
                         <br/>
+                        <label>Choose min and max value of the numbers:</label>
+                        <br/>
+                        <form class="form-inline">
+                        <input type="number" required id="min_value" min="0" max="1000" placeholder="0"/>
+                        <input type="number" required id="max_value" min="0" max="1000" placeholder="0"/>
+                        <br/>
+                        <br/>
+                        <button type="submit" class="btn btn-info">Generate</button>
+                        </form>
+                        <br/>
+                        <label for="select">Select type of the sorting (ascending or descending):</label>
+                        <select class="form-control max-150" id="select_type">
+                          <option value="ascending" selected>Ascending</option>
+                          <option value="descending">Descending</option>
+                        </select>
                         <br/>
                         <label>Unsorted array:</label>
                         <label id="unsorted-array"></label>
@@ -26,7 +48,7 @@
 
             <div class="form-group col-xs-12">
                 <div class="col-xs-12">
-                        <button type="button" class="btn btn-success">Sort</button>
+                        <button id="btn_sort" type="button" class="btn btn-success">Sort</button>
                 </div>
                
             </div>

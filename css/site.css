@@ -1,0 +1,16 @@
+/*
+body {
+    background-image: url("https://i.pinimg.com/564x/95/d4/59/95d45969bbe1fda39352d4cf3504345d.jpg");
+    background-size: 200px 100px;
+    background-repeat: y-repeat;
+}
+*/
+.max-100 {
+    max-width: 100px;
+}
+.max-150 {
+    max-width: 150px;
+}
+#unsorted-array {
+    overflow-wrap: break-word;
+}
